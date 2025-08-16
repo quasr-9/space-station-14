@@ -407,6 +407,8 @@
       amount: 1
     Ash:
       amount: 1
+  products:
+    Dustbowl: 4
 
 - type: reaction
   id: Eggnog
