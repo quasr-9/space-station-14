@@ -402,13 +402,13 @@
   id: Dustbowl
   reactants:
     Moonshine:
-      amount: 2
+      amount: 3
     Nothing:
-      amount: 1
+      amount: 2
     Ash:
       amount: 1
   products:
-    Dustbowl: 4
+    Dustbowl: 6
 
 - type: reaction
   id: Eggnog
