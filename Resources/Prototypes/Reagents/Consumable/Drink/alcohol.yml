@@ -990,6 +990,24 @@
         amount: 0.15
 
 - type: reagent
+  id: Dustbowl
+  name: reagent-name-dustbowl
+  parent: BaseAlcohol
+  desc: reagent-desc-dustbowl
+  physicalDesc: physical-desc-strong-smelling
+  flavor: dustbowl
+  color: "#a57b42"
+  metabolisms:
+    Drink:
+      - effects:
+          - !type:SatiateThirst
+            factor: -1
+          - !type:AdjustReagent
+            reagent: Ethanol
+            amount: 0.2
+
+
+- type: reagent
   id: Eggnog
   name: reagent-name-eggnog
   parent: BaseAlcohol

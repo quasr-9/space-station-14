@@ -399,6 +399,16 @@
     DriestMartini: 2
 
 - type: reaction
+  id: Dustbowl
+  reactants:
+    Moonshine:
+      amount: 2
+    Nothing:
+      amount: 1
+    Ash:
+      amount: 1
+
+- type: reaction
   id: Eggnog
   requiredMixerCategories:
   - Shake
