@@ -997,6 +997,12 @@
   physicalDesc: physical-desc-strong-smelling
   flavor: dustbowl
   color: "#a57b42"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/driestmartiniglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 3
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
   metabolisms:
     Drink:
       - effects:
