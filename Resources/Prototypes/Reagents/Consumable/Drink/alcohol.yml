@@ -994,7 +994,7 @@
   name: reagent-name-dustbowl
   parent: BaseAlcohol
   desc: reagent-desc-dustbowl
-  physicalDesc: physical-desc-strong-smelling
+  physicalDesc: reagent-physical-desc-strong-smelling
   flavor: dustbowl
   color: "#a57b42"
   metamorphicSprite:
@@ -1005,12 +1005,12 @@
   metamorphicChangeColor: false
   metabolisms:
     Drink:
-      - effects:
-          - !type:SatiateThirst
-            factor: -1
-          - !type:AdjustReagent
-            reagent: Ethanol
-            amount: 0.2
+      effects:
+        - !type:SatiateThirst
+          factor: -5
+        - !type:AdjustReagent
+          reagent: Ethanol
+          amount: 0.2
 
 
 - type: reagent

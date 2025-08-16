@@ -1050,6 +1050,11 @@
   description: flavor-complex-driest-martini
 
 - type: flavor
+  id: dustbowl
+  flavorType: Complex
+  description: flavor-complex-dustbowl
+
+- type: flavor
   id: eggnog
   flavorType: Complex
   description: flavor-complex-eggnog
