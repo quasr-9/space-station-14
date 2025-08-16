@@ -844,6 +844,22 @@
 
 - type: entity
   parent: DrinkGlass
+  id: DrinkDustbowlGlass
+  suffix: dustbowl
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Dustbowl
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/driestmartiniglass.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
   id: DrinkEggnog
   suffix: eggnog
   components:
