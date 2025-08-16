@@ -998,9 +998,9 @@
   flavor: dustbowl
   color: "#a57b42"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/driestmartiniglass.rsi
+    sprite: Objects/Consumable/Drinks/dustbowl.rsi
     state: icon_empty
-  metamorphicMaxFillLevels: 3
+  metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
@@ -1011,7 +1011,6 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.2
-
 
 - type: reagent
   id: Eggnog
