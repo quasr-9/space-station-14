@@ -2789,3 +2789,19 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/plainslush.rsi
     state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkLemonLimeSlush
+  suffix: lemon lime slush
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LemonLimeSlush
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/lemonlimeslush.rsi
+    state: icon

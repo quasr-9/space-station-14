@@ -648,3 +648,18 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+
+- type: reagent
+  id: LemonLimeSlush
+  name: reagent-name-lemonlimeslush
+  parent: BaseDrink
+  desc: reagent-desc-lemonlimeslush
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: lemonlimeslush
+  color: "#22ff00"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/lemonlimeslush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false

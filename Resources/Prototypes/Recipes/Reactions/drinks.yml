@@ -1579,3 +1579,15 @@
       amount: 1
   products:
     BacchusBlessing: 4
+
+- type: reaction
+  id: LemonLimeSlush
+  requiredMixerCategories:
+    - Stir
+  reactants:
+    PlainSlush:
+      amount: 5
+    LemonLime:
+      amount: 1
+  products:
+    LemonLimeSlush: 6

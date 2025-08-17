@@ -1035,6 +1035,11 @@
   description: flavor-complex-brave-bull
 
 - type: flavor
+  id: cherryslush
+  flavorType: Complex
+  description: flavor-complex-cherry-slush
+
+- type: flavor
   id: demonsblood
   flavorType: Complex
   description: flavor-complex-demons-blood
@@ -1083,6 +1088,11 @@
   id: hooch
   flavorType: Complex
   description: flavor-complex-hooch
+
+- type: flavor
+  id: lemonlimeslush
+  flavorType: Complex
+  description: flavor-complex-lemon-lime-slush
 
 - type: flavor
   id: manhattan
@@ -1494,7 +1504,4 @@
   flavorType: Base
   description: flavor-base-motivating
 
-- type: flavor
-  id: cherryslush
-  flavorType: Complex
-  description: flavor-complex-cherry-slush
+

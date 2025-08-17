@@ -99,3 +99,6 @@ reagent-desc-plainslush = It's just some ice.
 
 reagent-name-cherryslush = cherry slush
 reagent-desc-cherryslush = The Syndicate loves this stuff.
+
+reagent-name-lemonlimeslush = lemon lime slush
+reagent-desc-lemonlimeslush = It looks like a sugary cleaning product.
