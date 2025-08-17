@@ -98,4 +98,4 @@ reagent-name-plainslush = plain slush
 reagent-desc-plainslush = It's just some ice.
 
 reagent-name-cherryslush = cherry slush
-reagent-desc-cherryslush = The Syndicate loves this stuff
+reagent-desc-cherryslush = The Syndicate loves this stuff.
