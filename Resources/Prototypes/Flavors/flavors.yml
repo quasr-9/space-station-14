@@ -1025,6 +1025,11 @@
   description: flavor-complex-barefoot
 
 - type: flavor
+  id: blueraspberryslush
+  flavorType: Complex
+  description: flavor-complex-blue-raspberry-slush
+
+- type: flavor
   id: booger
   flavorType: Complex
   description: flavor-complex-booger

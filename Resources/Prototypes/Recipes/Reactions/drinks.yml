@@ -227,6 +227,18 @@
     BloodyMary: 6
 
 - type: reaction
+  id: BlueRaspberrySlush
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    PlainSlush:
+      amount: 5
+    BlueCuracao:
+      amount: 1
+  products:
+    BlueRaspberrySlush: 6
+
+- type: reaction
   id: Booger
   reactants:
     Cream:
@@ -767,6 +779,18 @@
       amount: 1
   products:
     LemonLime: 3
+
+- type: reaction
+  id: LemonLimeSlush
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    PlainSlush:
+      amount: 5
+    LemonLime:
+      amount: 1
+  products:
+    LemonLimeSlush: 6
 
 - type: reaction
   id: LongIslandIcedTea
@@ -1579,15 +1603,3 @@
       amount: 1
   products:
     BacchusBlessing: 4
-
-- type: reaction
-  id: LemonLimeSlush
-  requiredMixerCategories:
-    - Stir
-  reactants:
-    PlainSlush:
-      amount: 5
-    LemonLime:
-      amount: 1
-  products:
-    LemonLimeSlush: 6

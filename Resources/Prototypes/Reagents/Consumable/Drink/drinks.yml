@@ -651,14 +651,29 @@
 
 - type: reagent
   id: LemonLimeSlush
-  name: reagent-name-lemonlimeslush
+  name: reagent-name-lemon-lime-slush
   parent: BaseDrink
-  desc: reagent-desc-lemonlimeslush
+  desc: reagent-desc-lemon-lime-slush
   physicalDesc: reagent-physical-desc-frosty
   flavor: lemonlimeslush
   color: "#22ff00"
   metamorphicSprite:
     sprite: Objects/Consumable/Drinks/lemonlimeslush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: BlueRaspberrySlush
+  name: reagent-name-blue-raspberry-slush
+  parent: BaseDrink
+  desc: reagent-desc-blue-raspberry-slush
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: blueraspberryslush
+  color: "#0000ff"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/blueraspberryslush.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-

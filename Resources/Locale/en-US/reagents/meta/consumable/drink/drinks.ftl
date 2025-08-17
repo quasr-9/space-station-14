@@ -94,11 +94,14 @@ reagent-desc-posca = Poor warriors' drink from a forgotten era.
 reagent-name-mopwata = mopwata
 reagent-desc-mopwata = Dirty, stagnant mop water.
 
-reagent-name-plainslush = plain slush
-reagent-desc-plainslush = It's just some ice.
+reagent-name-plain-slush = plain slushie
+reagent-desc-plain-slush = It's just some ice.
 
-reagent-name-cherryslush = cherry slush
-reagent-desc-cherryslush = The Syndicate loves this stuff.
+reagent-name-cherry-slush = cherry slushie
+reagent-desc-cherry-slush = The Syndicate loves this stuff.
 
-reagent-name-lemonlimeslush = lemon lime slush
-reagent-desc-lemonlimeslush = It looks like a sugary cleaning product.
+reagent-name-lemon-lime-slush = lemon lime slushie
+reagent-desc-lemon-lime-slush = It looks like a sugary cleaning product.
+
+reagent-name-blue-raspberry-slush = blue raspberry slushie
+reagent-desc-blue-raspberry-slush = Made from the elusive blue raspberry.
