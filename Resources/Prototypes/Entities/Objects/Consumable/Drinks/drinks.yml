@@ -2757,3 +2757,35 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/bacchusblessing.rsi
     state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkPlainSlush
+  suffix: plain slush
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: PlainSlush
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/plainslush.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkCherrySlush
+  suffix: cherry slush
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: CherrySlush
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/plainslush.rsi
+    state: icon

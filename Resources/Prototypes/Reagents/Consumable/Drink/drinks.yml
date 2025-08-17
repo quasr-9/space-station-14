@@ -618,3 +618,33 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+
+- type: reagent
+  id: PlainSlush
+  name: reagent-name-plainslush
+  parent: BaseDrink
+  desc: reagent-desc-plainslush
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: ice
+  color: "#b9e8ea"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/plainslush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: CherrySlush
+  name: reagent-name-cherryslush
+  parent: BaseDrink
+  desc: reagent-desc-cherryslush
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: cherryslush
+  color: "#f00000"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/cherryslush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false

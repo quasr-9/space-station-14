@@ -37,6 +37,7 @@
       - BudgetInsulsDrinkGlass
       - DrinkCarrotJuice
       - DrinkCoconutRum
+      - DrinkCherrySlush
       - DrinkChocolateGlass
       - DrinkCognacGlass
       - DrinkCosmopolitan
@@ -83,6 +84,7 @@
       - DrinkNTCahors
       - DrinkPainkillerGlass
       - DrinkPatronGlass
+      - DrinkPlainSlush
       - DrinkPinaColadaGlass
       - DrinkPoscaGlass
       - DrinkRadlerGlass

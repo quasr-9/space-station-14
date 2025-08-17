@@ -275,6 +275,18 @@
     CafeLatte: 2
 
 - type: reaction
+  id: CherrySlush
+  requiredMixerCategories:
+    - Stir
+  reactants:
+    PlainSlush:
+      amount: 5
+    Grenadine:
+      amount: 1
+  products:
+    CherrySlush: 6
+
+- type: reaction
   id: CoconutRum
   reactants:
     Rum:
@@ -957,6 +969,18 @@
       amount: 1
   products:
     PinaColada: 6
+
+- type: reaction
+  id: PlainSlush
+  requiredMixerCategories:
+      - Shake
+  reactants:
+    Ice:
+      amount: 5
+    Sugar:
+      amount: 1
+  products:
+    PlainSlush: 6
 
 - type: reaction
   id: Posca
