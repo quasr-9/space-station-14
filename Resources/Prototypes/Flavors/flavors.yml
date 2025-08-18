@@ -1055,6 +1055,11 @@
   description: flavor-complex-devils-kiss
 
 - type: flavor
+  id: drgibbslush
+  flavorType: Complex
+  description: flavor-complex-dr-gibb-slush
+
+- type: flavor
   id: driestmartini
   flavorType: Complex
   description: flavor-complex-driest-martini

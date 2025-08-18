@@ -105,3 +105,6 @@ reagent-desc-lemon-lime-slush = It looks like a sugary cleaning product.
 
 reagent-name-blue-raspberry-slush = blue raspberry slushie
 reagent-desc-blue-raspberry-slush = Made from the elusive blue raspberry.
+
+reagent-name-dr-gibb-slush = dr gibb slushie
+reagent-desc-dr-gibb-slush = A cola flavored slushie made with Dr. Gibb

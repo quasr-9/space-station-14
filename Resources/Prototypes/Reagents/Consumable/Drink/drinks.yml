@@ -640,7 +640,7 @@
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: PlainSlush
           min: 25
         damage:
           types:
@@ -648,7 +648,7 @@
       - !type:PopupMessage
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: PlainSlush
           min: 20
         type: Local
         visualType: Medium
@@ -676,7 +676,7 @@
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: CherrySlush
           min: 25
         damage:
           types:
@@ -684,7 +684,7 @@
       - !type:PopupMessage
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: CherrySlush
           min: 20
         type: Local
         visualType: Medium
@@ -712,7 +712,7 @@
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: LemonLimeSlush
           min: 25
         damage:
           types:
@@ -720,7 +720,7 @@
       - !type:PopupMessage
         conditions:
         - !type:ReagentThreshold
-          reagent: BlueRaspberrySlush
+          reagent: LemonLimeSlush
           min: 20
         type: Local
         visualType: Medium
@@ -762,3 +762,39 @@
           visualType: Medium
           messages: [ "generic-reagent-effect-brain-freeze" ]
           probability: 0.2
+
+- type: reagent
+  id: DrGibbSlush
+  name: reagent-name-dr-gibb-slush
+  parent: BaseDrink
+  desc: reagent-desc-dr-gibb-slush
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: drgibbslush
+  color: "#102000"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/drgibbslush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      metabolismRate: 1
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: DrGibbSlush
+          min: 25
+        damage:
+          types:
+            Cold: 0.25
+      - !type:PopupMessage
+        conditions:
+        - !type:ReagentThreshold
+          reagent: DrGibbSlush
+          min: 20
+        type: Local
+        visualType: Medium
+        messages: [ "generic-reagent-effect-brain-freeze" ]
+        probability: 0.2

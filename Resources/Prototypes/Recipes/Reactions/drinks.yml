@@ -411,6 +411,18 @@
     DoctorsDelight: 6
 
 - type: reaction
+  id: DrGibbSlush
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    PlainSlush:
+      amount: 5
+    DrGibb:
+      amount: 1
+  products:
+    DrGibbSlush: 6
+
+- type: reaction
   id: DriestMartini
   requiredMixerCategories:
   - Shake

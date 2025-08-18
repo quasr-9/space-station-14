@@ -332,6 +332,7 @@ flavor-complex-bacchus-blessing = like a wall of bricks
 flavor-complex-cherry-slush = like syrup and red dye
 flavor-complex-lemon-lime-slush = like sweetened battery acid
 flavor-complex-blue-raspberry-slush = like a raspberry, but blue
+flavor-complex-dr-gibb-slush = like flat Dr. Gibb ran through a blender
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = like sweet milk

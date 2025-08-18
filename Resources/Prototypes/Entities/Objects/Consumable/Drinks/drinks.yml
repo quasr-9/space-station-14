@@ -2761,7 +2761,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkPlainSlush
-  suffix: plain slush
+  suffix: plain slushie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2777,7 +2777,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkCherrySlush
-  suffix: cherry slush
+  suffix: cherry slushie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2793,7 +2793,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkLemonLimeSlush
-  suffix: lemon lime slush
+  suffix: lemon lime slushie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2809,7 +2809,7 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkBlueRaspberrySlush
-  suffix: blue raspberry slush
+  suffix: blue raspberry slushie
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2817,6 +2817,22 @@
         maxVol: 30
         reagents:
         - ReagentId: BlueRaspberrySlush
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/blueraspberryslush.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkDrGibbSlush
+  suffix: dr gibb slushie
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: DrGibbSlush
           Quantity: 30
   - type: Icon
     sprite: Objects/Consumable/Drinks/blueraspberryslush.rsi
