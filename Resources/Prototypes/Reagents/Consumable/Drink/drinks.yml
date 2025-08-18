@@ -633,6 +633,27 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      metabolismRate: 1
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 25
+        damage:
+          types:
+            Cold: 0.25
+      - !type:PopupMessage
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 20
+        type: Local
+        visualType: Medium
+        messages: [ "generic-reagent-effect-brain-freeze" ]
+        probability: 0.2
 
 - type: reagent
   id: CherrySlush
@@ -648,6 +669,27 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      metabolismRate: 1
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 25
+        damage:
+          types:
+            Cold: 0.25
+      - !type:PopupMessage
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 20
+        type: Local
+        visualType: Medium
+        messages: [ "generic-reagent-effect-brain-freeze" ]
+        probability: 0.2
 
 - type: reagent
   id: LemonLimeSlush
@@ -663,6 +705,27 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      metabolismRate: 1
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 25
+        damage:
+          types:
+            Cold: 0.25
+      - !type:PopupMessage
+        conditions:
+        - !type:ReagentThreshold
+          reagent: BlueRaspberrySlush
+          min: 20
+        type: Local
+        visualType: Medium
+        messages: [ "generic-reagent-effect-brain-freeze" ]
+        probability: 0.2
 
 - type: reagent
   id: BlueRaspberrySlush
@@ -678,3 +741,24 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      metabolismRate: 1
+      effects:
+      - !type:HealthChange
+          conditions:
+          - !type:ReagentThreshold
+            reagent: BlueRaspberrySlush
+            min: 25
+          damage:
+            types:
+              Cold: 0.25
+      - !type:PopupMessage
+          conditions:
+          - !type:ReagentThreshold
+            reagent: BlueRaspberrySlush
+            min: 20
+          type: Local
+          visualType: Medium
+          messages: [ "generic-reagent-effect-brain-freeze" ]
+          probability: 0.2
